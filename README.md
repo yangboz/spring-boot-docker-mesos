@@ -10,9 +10,8 @@ http://mesos.apache.org/gettingstarted/
 ```./bin/mesos-master.sh --ip=127.0.0.1 --work_dir=/var/tmp```
 
 ###Start Mesos slave: 
-```
-./bin/mesos-slave.sh --master=127.0.0.1:5050 --work_dir=/var/tmp
-```
+
+```./bin/mesos-slave.sh --master=127.0.0.1:5050 --work_dir=/var/tmp```
 
 ###Open the Mesos web page: http://127.0.0.1:5050
 
